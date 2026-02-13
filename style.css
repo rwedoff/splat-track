@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #fff7f0;
+}
+.splat-header {
+  background: #ff6600;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.splat-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+}
+.splat-btn {
+  margin: 1rem;
+  width: 220px;
+  font-size: 1.2rem;
+  background: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.splat-btn:hover {
+  background: #e65c00;
+}
+.splat-desc {
+  color: #ff6600;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  max-width: 500px;
+}

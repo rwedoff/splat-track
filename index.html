@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Splat Track</title>
+  <!-- All dependencies are bundled in bundle.js -->
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    body {
+      margin: 0;
+      background: #fff7f0;
+    }
+
+    .splat-header {
+      background: #ff6600;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    .splat-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* justify-content: center; Removed to align to top */
+      min-height: auto;
+      /* Changed from 60vh */
+      padding-top: 2rem;
+    }
+
+    .splat-desc {
+      color: #ff6600;
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+      text-align: center;
+      max-width: 500px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script src="./dist/bundle.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "splat-track",
+  "version": "1.0.0",
+  "description": "Splat Workout Tracker - React + TypeScript app for GitHub Pages",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "esbuild src/index.tsx --bundle --outfile=dist/bundle.js --minify --sourcemap --jsx=automatic",
+    "start": "npx serve ."
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@fluentui/react": "^8.125.4",
+    "@fluentui/react-charting": "^5.25.6",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "esbuild": "^0.27.3",
+    "typescript": "^5.0.0"
+  }
+}
